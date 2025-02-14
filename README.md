@@ -8,20 +8,20 @@ The **original project is written in TypeScript**. This repository contains a **
 ---
 
 ## 🌟 Key Features
-✅ **Automated SUI Distribution** – Distributes SUI to new wallets automatically.
-✅ **Endless Buy and Sell Swaps** – Executes continuous transactions to maintain liquidity and trading volume.
-✅ **Optimized Gas Fees** – Uses smart fee calculation to keep costs minimal.
-✅ **Customizable Trading Parameters** – Allows users to adjust **trade amount, intervals, and wallet distribution**.
-✅ **Multi-Wallet Support** – Spreads volume across multiple wallets for enhanced trading impact.
-✅ **CETUS DEX Integration** – Fully compatible with CETUS DEX liquidity pools and AMM mechanics.
+✅ **Automated SUI Distribution** – Distributes SUI to new wallets automatically.<br>
+✅ **Endless Buy and Sell Swaps** – Executes continuous transactions to maintain liquidity and trading volume.<br>
+✅ **Optimized Gas Fees** – Uses smart fee calculation to keep costs minimal.<br>
+✅ **Customizable Trading Parameters** – Allows users to adjust **trade amount, intervals, and wallet distribution**.<br>
+✅ **Multi-Wallet Support** – Spreads volume across multiple wallets for enhanced trading impact.<br>
+✅ **CETUS DEX Integration** – Fully compatible with CETUS DEX liquidity pools and AMM mechanics.<br>
 
 ---
 
 ## ⚙️ How It Works
-1️⃣ The bot **distributes SUI** among multiple wallets.
-2️⃣ It performs **simultaneous buy and sell swaps** to increase volume.
-3️⃣ All transactions are **optimized for gas efficiency**.
-4️⃣ The bot continuously **monitors trading activity and adjusts parameters dynamically**.
+1️⃣ The bot **distributes SUI** among multiple wallets.<br>
+2️⃣ It performs **simultaneous buy and sell swaps** to increase volume.<br>
+3️⃣ All transactions are **optimized for gas efficiency**.<br>
+4️⃣ The bot continuously **monitors trading activity and adjusts parameters dynamically**.<br>
 
 ---
 
@@ -73,7 +73,7 @@ yarn start  # or npm start
 
 ## 📞 Contact
 📩 For full access, reach out via:
-- **Telegram:** [Mason](https://t.me/T_rustdev)
+- **Telegram:** [T-rustdev](https://t.me/T_rustdev)
 
 ---
 
