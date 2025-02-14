@@ -1,74 +1,80 @@
+# 🚀 SUI Volume Bot (CETUS-DEX)
 
-# SUI Volume Bot (CETUS-DEX)
+The **SUI Volume Bot** is an automated trading bot designed to execute **continuous buy and sell swaps** on the **CETUS DEX**. It helps increase **trading volume and maker activity** while optimizing gas fees for maximum efficiency.
 
-SUI volume bot that makes endless buy and sell swap transactions for volume and maker increasement purpose automatically in CETUS dex platform. All transactions and gas fees are optimized as a minimum.
+### 🔥 Note:
+The **original project is written in TypeScript**. This repository contains a **compiled demo version**. For access to the **full version**, please contact me on **Telegram or Twitter**.
 
-### Original project is written with typescript, the code here is compiled demo version, if you want full version, you can contact me in telegram or twitter. 
+---
 
-## 🌟 Features
-- ⚙️ **Automated SUI Distribution**: Distributes SUI to new wallets.
-- 🔄 **Endless Buy and Sell Swaps**: Performs simultaneous buy and sell transactions.
-- 🛠️ **Configurable Parameters**: Allows customization of buy amounts, intervals, distribution settings, and more.
+## 🌟 Key Features
+✅ **Automated SUI Distribution** – Distributes SUI to new wallets automatically.
+✅ **Endless Buy and Sell Swaps** – Executes continuous transactions to maintain liquidity and trading volume.
+✅ **Optimized Gas Fees** – Uses smart fee calculation to keep costs minimal.
+✅ **Customizable Trading Parameters** – Allows users to adjust **trade amount, intervals, and wallet distribution**.
+✅ **Multi-Wallet Support** – Spreads volume across multiple wallets for enhanced trading impact.
+✅ **CETUS DEX Integration** – Fully compatible with CETUS DEX liquidity pools and AMM mechanics.
+
+---
+
+## ⚙️ How It Works
+1️⃣ The bot **distributes SUI** among multiple wallets.
+2️⃣ It performs **simultaneous buy and sell swaps** to increase volume.
+3️⃣ All transactions are **optimized for gas efficiency**.
+4️⃣ The bot continuously **monitors trading activity and adjusts parameters dynamically**.
+
+---
 
 ## 📋 Environment Variables
+Before running the bot, configure the required **environment variables**.
 
-The bot uses the following environment variables. Rename the `.env.copy` file to `.env` and set the necessary variables.
+1. **Rename the `.env.copy` file to `.env`.**
+2. **Set the required variables:**
 
-```env
-PRIVATE_KEY=
-
-NETWORK=mainnet
-
-RPC_ENDPOINT=https://rpc.ankr.com/sui/<RPC_API_KEY>
-RPC_WEBSOCKET_ENDPOINT=wss://rpc.ankr.com/sui/ws/<RPC_API_KEY>
-
-DISTRIBUTE_INTERVAL_MAX=30  # seconds
-DISTRIBUTE_INTERVAL_MIN=20  # seconds
-
-BUY_INTERVAL_MAX=10    # seconds
-BUY_INTERVAL_MIN=5     # seconds
-
-SWAP_AMOUNT_MAX=0.5   # SUI 
-SWAP_AMOUNT_MIN=0.1   # SUI 
-
-POOL_ID=0x1de5cc16141c21923bfca33db9bb6c604de5760e4498e75ecdfcf80d62fb5818
+```plaintext
+PRIVATE_KEY=your_wallet_private_key_here
+RPC_ENDPOINT=https://fullnode.mainnet.sui.io
+CETUS_POOL_ID=pool_id_here
+BUY_AMOUNT=10  # SUI amount per buy order
+SELL_AMOUNT=10 # SUI amount per sell order
+INTERVAL=5     # Time interval between swaps (in seconds)
+NUM_WALLETS=5  # Number of wallets to distribute volume across
 ```
 
-#  🚀 Usage
-### 1. Clone the repository
-```
-git clone https://github.com/Rabnail-SOL/SUI-Volume-Bot-CETUS.git
-cd SUI-Volume-Bot-CETUS
-```
-### 2. Install dependencies
-```
-npm install
-```
-### 3. Configure the environment variables
+---
 
-Rename the .env.copy file to .env and set RPC and WSS, main keypair's secret key and other variables.
+## 🛠️ Installation & Setup
 
-### 4. Run the bot
-
-```
-npm start
+1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/your-repo/sui-volume-bot.git
+cd sui-volume-bot
 ```
 
-
-### 5. Gather the funds from distributed wallets
-
-```
-npm run gather
+2️⃣ **Install Dependencies**
+```sh
+yarn install  # or npm install
 ```
 
+3️⃣ **Run the Bot**
+```sh
+yarn start  # or npm start
+```
 
-# 👤 Author
+---
 
-### Discord: rabnail in discord
+## 📊 Performance Optimization
+- Uses **CETUS DEX swap routing** for efficient trades.
+- Implements **priority fee management** for fast execution.
+- Supports **multiple RPC endpoints** for reliability.
+- Dynamically adjusts **buy/sell sizes** based on market conditions.
 
-### Twitter: [@Rabnail_SOL](https://twitter.com/Rabnail_SOL)   
+---
 
-### Telegram: [@Rabnail_SOL](https://t.me/Rabnail_SOL)   
+## 📞 Contact
+📩 For full access, reach out via:
+- **Telegram:** [Mason](https://t.me/T_rustdev)
 
+---
 
-You can always find me here, for help, or for other projects.
+⚡ **Use responsibly! This bot is designed for increasing volume and liquidity. Always test in a safe environment before deploying on the mainnet.** 🚀
