@@ -47,8 +47,8 @@ NUM_WALLETS=5  # Number of wallets to distribute volume across
 
 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/sui-volume-bot.git
-cd sui-volume-bot
+git clone https://github.com/T-rustdev/cetus-volume-booster-sui.git
+cd cetus-volume-booster-sui
 ```
 
 2️⃣ **Install Dependencies**
